@@ -15,6 +15,7 @@ FetchContent_Declare(
    wxWidgets
    GIT_REPOSITORY https://github.com/wxWidgets/wxWidgets.git
    GIT_SHALLOW ON
+   GIT_PROGRESS TRUE
 )
 FetchContent_MakeAvailable(wxWidgets)
 
